@@ -1,0 +1,204 @@
+body{
+    background-color: #EFF3F8;
+}
+
+#home-section{
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* border-radius: 0px 0px 200px 200px; */
+    margin-top: -11rem;
+    padding-top: 15rem;
+    font-size: 2rem;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+.homesection-ext{
+    background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#feature-section{
+    margin-top: 5rem;
+    background-color: #EFF3F8;
+    padding-top: 2rem;
+    font-size: 2rem;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
+#navbar {
+    transition: top 0.8s;
+    background-color: #1c1c1c !important;
+}
+
+.bg-light{
+    background-color: rgba(0, 0, 0, 0.733)!important;
+}
+
+
+.align{
+    text-align: center;
+    align-items: center;
+}
+
+.main-logo{
+    font-family: 'Lato', sans-serif;
+    color: #1c1c1c;
+    font-size: 4.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-align: left;
+}
+
+.button-home-screen{
+    margin-top: 3rem;
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+}
+
+.section1{
+    padding-top: 4rem;
+    
+}
+
+.card{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+}
+
+.card-signup-sign, .card-signup{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    max-width: 70%;
+    padding: 0%;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    height: 450px;
+    background-color: #1c1c1c;
+}
+
+.row, .container{
+    height: 450px;
+}
+
+.cb-signup{
+    padding: 0%;
+}
+
+.card-img-top{
+    background-color: #0751C2;
+}
+
+.table-align{
+    /* padding-left: 60px;
+    padding-right: 60px; */
+    max-width: 70%;
+    text-align: center;
+}
+
+.feature-heading{
+    font-family: 'Lato', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1c1c1c;
+    margin-bottom: 2rem;
+}
+
+.home-text{
+    font-family: 'Lato', sans-serif;
+    margin-top: 5rem;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.button-home{
+    border-radius: 1.5rem;
+    background-color: #1c1c1c;
+    color: #EFF3F8;
+    border:1px solid #1c1c1c;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url(/img/bars-solid\ 1.png) !important;
+}
+
+.signup-content{
+    margin-top: 2rem;
+    font-family: 'Lato';
+    color: #EFF3F8;
+}
+
+.login-content{
+    margin-top: 5rem;
+    font-family: 'Lato';
+    color: #EFF3F8;
+    
+}
+
+.form-content{
+    font-family: 'Lato';
+    color: #EFF3F8;
+    padding-left: 2.9rem;
+    text-align: left;
+}
+
+.button-form{
+    border-radius: 1.5rem;
+    background-color: #d99058;
+    background-image: linear-gradient(315deg, #d99058 0%, #f8de7e 74%);;
+    color: #1c1c1c;
+    border:1px solid #1c1c1c;
+}
+
+@media only screen and (max-width: 600px) {
+    .photo-ill{
+        width: 350px;
+        height: 300px;
+        margin-top: 2rem;
+    }
+
+    .home-text{
+        margin-top: 0rem;
+    }
+
+    .login-fix{
+        border: 0px solid  rgba(0, 0, 0, 0.733)!important;
+    }
+
+    .feature-heading{
+        font-size: 2.7rem;
+    }
+    #feature-section{
+        padding-bottom: 6rem;
+    }
+    .form-content{
+        text-align: center;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+    /* #text{
+        text-align: left;
+        margin-left: 0%;
+        padding-left: 0%;
+    } */
+    .tree-photo{
+        visibility: hidden;
+        padding-top: 0rem;
+    }
+    .login-content{
+        margin-top: 0rem;
+    }
+    .card-signup{
+        max-width: 90%;
+    }
+    .card-signup-sign{
+        height: 550px;
+    }
+}
