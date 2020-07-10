@@ -70,6 +70,25 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
     margin-top: 1rem;
 }
 
+.card-signup-sign, .card-signup{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    max-width: 70%;
+    padding: 0%;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    height: 450px;
+    background-color: #1c1c1c;
+}
+
+.row, .container{
+    height: 450px;
+}
+
+.cb-signup{
+    padding: 0%;
+}
+
 .card-img-top{
     background-color: #0751C2;
 }
@@ -110,6 +129,34 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
     background-image: url(/img/bars-solid\ 1.png) !important;
 }
 
+.signup-content{
+    margin-top: 2rem;
+    font-family: 'Lato';
+    color: #EFF3F8;
+}
+
+.login-content{
+    margin-top: 5rem;
+    font-family: 'Lato';
+    color: #EFF3F8;
+    
+}
+
+.form-content{
+    font-family: 'Lato';
+    color: #EFF3F8;
+    padding-left: 2.9rem;
+    text-align: left;
+}
+
+.button-form{
+    border-radius: 1.5rem;
+    background-color: #d99058;
+    background-image: linear-gradient(315deg, #d99058 0%, #f8de7e 74%);;
+    color: #1c1c1c;
+    border:1px solid #1c1c1c;
+}
+
 @media only screen and (max-width: 600px) {
     .photo-ill{
         width: 350px;
@@ -131,5 +178,27 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
     #feature-section{
         padding-bottom: 6rem;
     }
-    
+    .form-content{
+        text-align: center;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+    /* #text{
+        text-align: left;
+        margin-left: 0%;
+        padding-left: 0%;
+    } */
+    .tree-photo{
+        visibility: hidden;
+        padding-top: 0rem;
+    }
+    .login-content{
+        margin-top: 0rem;
+    }
+    .card-signup{
+        max-width: 90%;
+    }
+    .card-signup-sign{
+        height: 550px;
+    }
 }
