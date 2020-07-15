@@ -246,6 +246,18 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
         margin-bottom: -1rem;
     }
 
+    .some-edit{
+        margin-left: -4rem;
+    }
+
+    .some-edit1{
+        margin-left: -3.2rem;
+    }
+
+    .some-edit2{
+        margin-left: -3.3rem;
+    }
+
     .home-text{
         margin-top: -2.5rem;
     }
