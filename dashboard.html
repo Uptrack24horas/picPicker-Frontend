@@ -29,12 +29,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto mr-5">
-                <a class="nav-item nav-link active ml-2" href="#home-section"
+                <a class="nav-item nav-link active ml-2" href="index.html"
                     style="color: #fff; font-size: 14px; font-family:'Lato', sans-serif; opacity: 700;">HOME <span
                         class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link ml-2" href="#feature-section"
                     style="color: #fff; font-size: 14px; font-family:'Lato', sans-serif; opacity: 700;">PROFILE</a>
-                <a class="nav-item nav-link ml-2 login-fix" href="#"
+                <a class="nav-item nav-link ml-2 login-fix" href="signup.html"
                     style="color: #fff; font-size: 14px; font-family:'Lato', sans-serif; font-weight: 500; border: 1px solid #F8F8F8; border-radius: 1.5rem;">LOGIN/SIGNUP</a>
             </div>
         </div>
@@ -57,7 +57,7 @@
             </div>
             <div class="col-sm">
 
-                <div class="card mt-5 spacred" style="width: 18rem;">
+                <div class="card mt-5 spacred" style="width: inherit;">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -67,7 +67,7 @@
             </div>
             <div class="col-sm">
 
-                <div class="card mt-5 spacred" style="width: 18rem;">
+                <div class="card mt-5 spacred" style="width: inherit;">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -85,7 +85,7 @@
         <div class="container mb-5">
             <div class="row">
                 <div class="col-sm">
-                    <h5 class="text-dash">Recent Data</h5>
+                    <h5 class="text-dash" style="font-family: 'Lato'; font-weight: 500;">Recent Data</h5>
                     <br>
                     <div class="card">
                         <div class="card-body">
@@ -140,9 +140,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm">
-                    <h5 class="text-dash">Usage Graph</h5><br>
-                    <div class="graph mt-3" id="curve_chart" style="width: 650px; height: 400px"></div>
+
+                <div class="col-sm" style="margin-top: 1rem;">
+                    <h5 class="text-dash" style="font-family: 'Lato'; font-weight: 500;">Usage Graph</h5><br>
+                    <div class="img-fluid graph" id="curve_chart" style="width: 650px; height: 400px"></div>
                 </div>
             </div>
         </div>

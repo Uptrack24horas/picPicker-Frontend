@@ -3,7 +3,7 @@ body{
 }
 
 #home-section{
-    background: #8A2387;  /* fallback for old browsers */
+    background: #8A2387;  
     background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* border-radius: 0px 0px 200px 200px; */
@@ -14,7 +14,7 @@ body{
     text-align: center;
 }
 .homesection-ext{
-    background: #8A2387;  /* fallback for old browsers */
+    background: #8A2387; 
 background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -71,6 +71,7 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
     margin-right: auto;
     margin-left: auto;
     margin-top: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .card-signup-sign, .card-signup{
@@ -82,6 +83,7 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
     margin-bottom: 10em;
     height: 450px;
     background-color: #1c1c1c;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
 }
 
 .row, .container{
@@ -123,9 +125,17 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 
 .button-home{
     border-radius: 1.5rem;
+    /* background-color: #1c1c1c; */
+    background-color: transparent;
+    color: #1c1c1c;
+    border:2px solid #1c1c1c;
+    font-family: 'Lato', sans-serif;
+}
+
+.button-home:hover{
     background-color: #1c1c1c;
     color: #EFF3F8;
-    border:1px solid #1c1c1c;
+    border: 1px solid #1c1c1c;
 }
 
 .navbar-light .navbar-toggler-icon{
@@ -155,31 +165,58 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 .button-form{
     border-radius: 1.5rem;
     background-color: #d99058;
-    background-image: linear-gradient(315deg, #d99058 0%, #f8de7e 74%);;
+    background-image: linear-gradient(315deg, #d99058 0%, #f8de7e 74%);
     color: #1c1c1c;
     border:1px solid #1c1c1c;
 }
 
-/* .custom-fu{
-    border: 1px solid #E94057;
-} */
+.button-form:hover{
+    border: 1px solid #d99058;
+    color: #1c1c1c;
+}
 
 .custom-fu-form{
     background-color: #E94057;
     border:3px solid #E94057;
     color: #EFF3F8;
     padding: 1.2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.graph{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#footer-section{
+    margin-top: -15rem;
+    background-color: greenyellow;
 }
 
 @media only screen and (max-width: 600px) {
     .photo-ill{
-        width: 350px;
-        height: 300px;
+        width: 330px;
+        height: 270px;
+        margin-top: -0.8rem;
+        /* visibility: hidden; */
+    }
+
+    .main-logo{
+        font-size: 4rem;
+        margin-bottom: -1rem;
+    }
+
+    .opening-text{
+        font-weight: 400 !important;
+        font-size: 1.2rem !important;
+        font-family: 'Lato';
+        color: #aaaaaa;
         margin-top: 2rem;
+        margin-bottom: -1rem;
     }
 
     .home-text{
-        margin-top: 0rem;
+        margin-top: -2.5rem;
     }
 
     .login-fix{
@@ -211,13 +248,24 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
     }
     .card-signup{
         max-width: 90%;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
     .card-signup-sign{
         height: 550px;
+        margin-top: 4rem;
+        
     }
     .graph{
-        max-width: 288px;
+        /* max-width: 288px; */
+        max-width: auto !important;
+        margin-top: 1rem;
         margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        position: relative;
+        flex-direction: column;
     }
     .table{
         max-width: 70% !important;
@@ -230,6 +278,6 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
         margin-bottom: -1.5rem;
     }
     .spacred{
-        margin-top: 1rem !important;
+        margin-top: 0rem !important;
     }
 }
