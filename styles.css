@@ -261,8 +261,8 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
         max-width: auto !important;
         margin-top: 1rem;
         margin-bottom: 2rem;
-        margin-left: 0.3rem;
-        margin-right: 0.3rem;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         position: relative;
         flex-direction: column;
