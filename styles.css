@@ -86,9 +86,14 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
 }
 
-.row, .container{
-    height: 450px;
+.card-profile{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
+
+/* .row, .container{
+    height: 450px;
+} */
 
 .cb-signup{
     padding: 0%;
@@ -162,6 +167,15 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
     text-align: left;
 }
 
+.profile-content{
+    font-family: 'Lato';
+    font-size: 1.3rem;
+    color: #EFF3F8;
+    padding-top: 4rem;
+    padding-left: 2.9rem;
+    text-align: left;
+}
+
 .button-form{
     border-radius: 1.5rem;
     background-color: #d99058;
@@ -189,8 +203,25 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 }
 
 #footer-section{
-    margin-top: -15rem;
-    background-color: greenyellow;
+    margin-top: -2rem;
+    /* background-color: greenyellow; */
+}
+
+.person-ph{
+    height: 448px;
+}
+
+.text-dash{
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+}
+
+.tree-photo{
+    height: 448px;
+}
+
+.usage-text{
+    margin-bottom: auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -215,6 +246,18 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
         margin-bottom: -1rem;
     }
 
+    .some-edit{
+        margin-left: -4rem;
+    }
+
+    .some-edit1{
+        margin-left: -3.2rem;
+    }
+
+    .some-edit2{
+        margin-left: -3.3rem;
+    }
+
     .home-text{
         margin-top: -2.5rem;
     }
@@ -227,7 +270,7 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
         font-size: 2.7rem;
     }
     #feature-section{
-        padding-bottom: 6rem;
+        padding-bottom: 4rem;
     }
     .form-content{
         text-align: center;
@@ -243,6 +286,17 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
         visibility: hidden;
         padding-top: 0rem;
     }
+
+    .person-ph{
+        height: auto;
+        margin-top: 1.5rem;
+        box-shadow: 0 4px 8px 0 rgba(104, 104, 104, 0.2);
+    }
+
+    .profile-content{
+        margin-top: -5rem;
+    }
+
     .login-content{
         margin-top: 0rem;
     }
@@ -278,6 +332,12 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
         margin-bottom: -1.5rem;
     }
     .spacred{
-        margin-top: 0rem !important;
+        margin-top: 2rem !important;
+    }
+    .login-content{
+        margin-top: -22rem;
+    } 
+    .signup-content{
+        margin-top: -25rem;
     }
 }

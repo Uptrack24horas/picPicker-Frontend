@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>picPicker | Dashboard</title>
 
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmEgLh0_2AT-WHVqd-vTtRZVBzYPA5lwhTIQ&usqp=CAU" type="image/x-icon">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -19,7 +21,7 @@
     <!-- Navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-dashboard">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <span style="color: #1c1c1c; background-color: #fd7470e8; font-weight: 700;">&nbsp; &nbsp;p</span><span
                 style="letter-spacing: 1.5px; font-weight: 600; color: #fff;">icPicker</span>
         </a>
@@ -32,7 +34,7 @@
                 <a class="nav-item nav-link active ml-2" href="index.html"
                     style="color: #fff; font-size: 14px; font-family:'Lato', sans-serif; opacity: 700;">HOME <span
                         class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link ml-2" href="#feature-section"
+                <a class="nav-item nav-link ml-2" href="profile.html"
                     style="color: #fff; font-size: 14px; font-family:'Lato', sans-serif; opacity: 700;">PROFILE</a>
                 <a class="nav-item nav-link ml-2 login-fix" href="signup.html"
                     style="color: #fff; font-size: 14px; font-family:'Lato', sans-serif; font-weight: 500; border: 1px solid #F8F8F8; border-radius: 1.5rem;">LOGIN/SIGNUP</a>
@@ -46,7 +48,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xl">
+            <div class="col-sm-4">
 
                 <div class="mt-5">
                     <form method="" action="" class="custom-fu-form">
@@ -55,7 +57,7 @@
                 </div>
 
             </div>
-            <div class="col-sm">
+            <div class="col-sm-4">
 
                 <div class="card mt-5 spacred" style="width: inherit;">
                     <div class="card-body">
@@ -65,7 +67,7 @@
                 </div>
 
             </div>
-            <div class="col-sm">
+            <div class="col-sm-4">
 
                 <div class="card mt-5 spacred" style="width: inherit;">
                     <div class="card-body">
@@ -141,8 +143,8 @@
                     </div>
                 </div>
 
-                <div class="col-sm" style="margin-top: 1rem;">
-                    <h5 class="text-dash" style="font-family: 'Lato'; font-weight: 500;">Usage Graph</h5><br>
+                <div class="col-sm">
+                    <h5 class="text-dash usage-text" style="font-family: 'Lato'; font-weight: 500;">Usage Graph</h5><br>
                     <div class="img-fluid graph" id="curve_chart" style="width: 650px; height: 400px"></div>
                 </div>
             </div>
@@ -152,7 +154,33 @@
 
     <!-- Footer -->
 
+    <footer>
+        <section id="footer-section" style="margin-top: 3rem;">
+            <div class="container" style="text-align: justify;">
+                <center>
+                    <div class="row">
+                        <div class="col-sm mt-3 mb-1">
+                            <a></a>
+                        </div>
+                        <div class="col-sm mt-3 mb-1">
+                            Made with &hearts; by <a style="color: #1C1C21;" href="#">CodeChef-VIT</a>
+                        </div>
+                        <div class="col-sm mt-2 mb-1">
+                            <a style="font-size: 30px; color: #1C1C21;" class="fab fa-github icon-size mr-3"
+                                href="https://github.com/CodeChefVIT" height="20px" width="20px"></a>
 
+                            <a style="font-size: 30px; color: #1C1C21;" class="fab fa-linkedin icon-size mr-3"
+                                href="https://www.linkedin.com/in/CodeChefVIT/" height="20px" width="20px"></a>
+                            <a style="font-size: 30px; color: #1C1C21;" class="fab fa-instagram icon-size mr-3"
+                                href="https://instagram.com/CodeChefVIT/" height="20px" width="20px"></a>
+                            <a style="font-size: 30px; color: #1C1C21;" class="fab fa-twitter icon-size mr-3"
+                                href="https://twitter.com/CodeChefVIT/" height="20px" width="20px"></a>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </section>
+    </footer>
 
     <!-- End of Footer-->
 
