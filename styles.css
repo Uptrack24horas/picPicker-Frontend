@@ -225,6 +225,10 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 }
 
 @media only screen and (max-width: 600px) {
+    html, body {
+        overflow-x: hidden;
+        }
+
     .photo-ill{
         width: 330px;
         height: 270px;
