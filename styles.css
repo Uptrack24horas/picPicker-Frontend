@@ -1,12 +1,26 @@
+@font-face{
+    font-family: BimboRegular ;
+    src: url(./assets/bimbo-font/bimbo.regular.ttf);
+}
+
+@font-face{
+    font-family: BimboFingertip;
+    src:url(./assets/bimbo-font/bimbo.finetip.ttf);
+}
+
+@font-face{
+    font-family: BimboSharpie;
+    src: url(./assets/bimbo-font/bimbo.sharpie.ttf);
+}
+
 body{
     background-color: #EFF3F8;
 }
 
 #home-section{
-    background: #8A2387;  
-    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* border-radius: 0px 0px 200px 200px; */
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff);/* border-radius: 0px 0px 200px 200px; */
     margin-top: -11rem;
     padding-top: 15rem;
     font-size: 2rem;
@@ -14,10 +28,9 @@ body{
     text-align: center;
 }
 .homesection-ext{
-    background: #8A2387; 
-background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff);
 }
 #feature-section{
     margin-top: 5rem;
@@ -47,7 +60,8 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 }
 
 .main-logo{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
     color: #1c1c1c;
     font-size: 4.5rem;
     margin-left: 0.5rem;
@@ -66,6 +80,35 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
     padding-top: 4rem;
     
 }
+
+.photo-ill{
+    animation: pulse 3s infinite linear;
+}
+
+@keyframes pulse{
+
+    0%, 100% {
+        transform: translate(0, 0);
+      }
+      
+      50% {
+        transform: translate(20px, 0);
+      }
+      
+      80% {
+        transform: translate(-20px, 0);
+      }
+    
+}
+
+/* @keyframes nudge{
+    from{
+        transform: translate(20px, 0);
+    }
+    to{
+        transform: translate(0,0);
+    }
+} */
 
 .card{
     margin-right: auto;
@@ -111,8 +154,8 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 }
 
 .feature-heading{
-    font-family: 'Lato', sans-serif;
-    font-size: 52px;
+    font-family: BimboSharpie;
+    font-size: 4rem;
     font-weight: 700;
     text-align: center;
     text-transform: capitalize;
@@ -121,7 +164,7 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 }
 
 .home-text{
-    font-family: 'Lato', sans-serif;
+    font-family: BimboRegular;
     margin-top: 5rem;
     font-size: 30px;
     text-align: left;
@@ -144,7 +187,7 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 }
 
 .navbar-light .navbar-toggler-icon{
-    background-image: url(/img/bars-solid\ 1.png) !important;
+    background-image: url(/assets/bars-solid\ 1.png) !important;
 }
 
 .signup-content{
@@ -223,28 +266,58 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 .usage-text{
     margin-bottom: auto;
 }
+.githubIcon{
+    color: black;
+}
+.githubIcon:hover{
+    color: #242A2E;
+}
+.linkedinIcon{
+    color: black;
+}
+.linkedinIcon:hover{
+    color: #0077B5;
+}
+.instaIcon{
+    color: black;
+}
+.instaIcon:hover{
+    color: #C82E8E;
+}
+.twitterIcon{
+    color: black;
+}
+.twitterIcon:hover{
+    color: #00aced;
+}
 
 @media only screen and (max-width: 600px) {
     html, body {
         overflow-x: hidden;
         }
 
+    #home-section{
+        padding-bottom: 1rem;
+    }
+    .homesection-ext{
+        border: none;
+    }
+
     .photo-ill{
-        width: 330px;
-        height: 270px;
-        margin-top: -0.8rem;
-        /* visibility: hidden; */
+        height: 350px;
+        max-width: 80%;
     }
 
     .main-logo{
         font-size: 4rem;
         margin-bottom: -1rem;
+        
     }
 
     .opening-text{
         font-weight: 400 !important;
         font-size: 1.2rem !important;
-        font-family: 'Lato';
+        font-family: BimboRegular;
         color: #aaaaaa;
         margin-top: 2rem;
         margin-bottom: -1rem;
