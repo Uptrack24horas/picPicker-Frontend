@@ -2,12 +2,10 @@
     font-family: BimboRegular ;
     src: url(./assets/bimbo-font/bimbo.regular.ttf);
 }
-
 @font-face{
     font-family: BimboFingertip;
     src:url(./assets/bimbo-font/bimbo.finetip.ttf);
 }
-
 @font-face{
     font-family: BimboSharpie;
     src: url(./assets/bimbo-font/bimbo.sharpie.ttf);
@@ -18,7 +16,7 @@ body{
 }
 
 #home-section{
-    background: #00c6ff;  /* fallback for old browsers */
+    background: #00c6ff;  
     background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0072ff, #00c6ff);/* border-radius: 0px 0px 200px 200px; */
     margin-top: -11rem;
@@ -28,7 +26,7 @@ body{
     text-align: center;
 }
 .homesection-ext{
-    background: #00c6ff;  /* fallback for old browsers */
+    background: #00c6ff;  
     background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0072ff, #00c6ff);
 }
@@ -317,8 +315,7 @@ body{
         margin-right: 0.5rem;
         font-size: 3.5rem;
         text-align: center;
-        margin-bottom: -1rem;
-        
+        margin-bottom: -1rem; 
     }
 
     .opening-text{
@@ -361,11 +358,7 @@ body{
         margin-left: 0%;
         padding-left: 0%;
     }
-    /* #text{
-        text-align: left;
-        margin-left: 0%;
-        padding-left: 0%;
-    } */
+
     .tree-photo{
         visibility: hidden;
         padding-top: 0rem;
@@ -395,7 +388,6 @@ body{
         
     }
     .graph{
-        /* max-width: 288px; */
         max-width: auto !important;
         margin-top: 1rem;
         margin-bottom: 2rem;
