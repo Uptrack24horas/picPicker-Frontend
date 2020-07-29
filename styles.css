@@ -2,12 +2,10 @@
     font-family: BimboRegular ;
     src: url(./assets/bimbo-font/bimbo.regular.ttf);
 }
-
 @font-face{
     font-family: BimboFingertip;
     src:url(./assets/bimbo-font/bimbo.finetip.ttf);
 }
-
 @font-face{
     font-family: BimboSharpie;
     src: url(./assets/bimbo-font/bimbo.sharpie.ttf);
@@ -18,7 +16,7 @@ body{
 }
 
 #home-section{
-    background: #00c6ff;  /* fallback for old browsers */
+    background: #00c6ff;  
     background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0072ff, #00c6ff);/* border-radius: 0px 0px 200px 200px; */
     margin-top: -11rem;
@@ -28,7 +26,7 @@ body{
     text-align: center;
 }
 .homesection-ext{
-    background: #00c6ff;  /* fallback for old browsers */
+    background: #00c6ff;  
     background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0072ff, #00c6ff);
 }
@@ -61,7 +59,6 @@ body{
 
 .main-logo{
     font-family: 'Montserrat', sans-serif;
-
     color: #1c1c1c;
     font-size: 4.5rem;
     margin-left: 0.5rem;
@@ -100,21 +97,26 @@ body{
       }
     
 }
+.card-title{
+    font-family: BimboSharpie;
+    font-size: 2.4rem;
+}
 
-/* @keyframes nudge{
-    from{
-        transform: translate(20px, 0);
-    }
-    to{
-        transform: translate(0,0);
-    }
-} */
+.card-text{
+    font-family: BimboFingertip;
+    font-size: 2rem;
+}
 
 .card{
     margin-right: auto;
     margin-left: auto;
     margin-top: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: none;
+    
+}
+.card:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transition: box-shadow 500ms;
 }
 
 .card-signup-sign, .card-signup{
@@ -309,14 +311,16 @@ body{
     }
 
     .main-logo{
-        font-size: 4rem;
-        margin-bottom: -1rem;
-        
+        margin-left: -0.5rem;
+        margin-right: 0.5rem;
+        font-size: 3.5rem;
+        text-align: center;
+        margin-bottom: -1rem; 
     }
 
     .opening-text{
         font-weight: 400 !important;
-        font-size: 1.2rem !important;
+        font-size: 1.4rem !important;
         font-family: BimboRegular;
         color: #aaaaaa;
         margin-top: 2rem;
@@ -354,11 +358,7 @@ body{
         margin-left: 0%;
         padding-left: 0%;
     }
-    /* #text{
-        text-align: left;
-        margin-left: 0%;
-        padding-left: 0%;
-    } */
+
     .tree-photo{
         visibility: hidden;
         padding-top: 0rem;
@@ -388,7 +388,6 @@ body{
         
     }
     .graph{
-        /* max-width: 288px; */
         max-width: auto !important;
         margin-top: 1rem;
         margin-bottom: 2rem;
