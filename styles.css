@@ -24,6 +24,7 @@ body{
     font-size: 2rem;
     padding-bottom: 8rem;
     text-align: center;
+    /* background: var(--background-color); */
 }
 .homesection-ext{
     background: #00c6ff;  
@@ -98,13 +99,14 @@ body{
     
 }
 .card-title{
-    font-family: BimboSharpie;
+    font-family: MetropolisRegular;
+    font-weight: bold;
     font-size: 2.4rem;
 }
 
 .card-text{
-    font-family: BimboFingertip;
-    font-size: 2rem;
+    font-family: Metropolis;
+    font-size: 1.5rem;
 }
 
 .card{
@@ -156,9 +158,9 @@ body{
 }
 
 .feature-heading{
-    font-family: BimboSharpie;
+    font-family: Metropolis;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
     text-transform: capitalize;
     color: #1c1c1c;
@@ -166,7 +168,8 @@ body{
 }
 
 .home-text{
-    font-family: BimboRegular;
+    /* font-family: Metropolis;
+    font-weight: 600 !important; */
     margin-top: 5rem;
     font-size: 30px;
     text-align: left;
@@ -174,12 +177,11 @@ body{
 }
 
 .button-home{
-    border-radius: 1.5rem;
-    /* background-color: #1c1c1c; */
+    border-radius: .2rem;
     background-color: transparent;
     color: #1c1c1c;
     border:2px solid #1c1c1c;
-    font-family: 'Lato', sans-serif;
+    font-family: MetropolisRegular;
 }
 
 .button-home:hover{
@@ -319,10 +321,10 @@ body{
     }
 
     .opening-text{
-        font-weight: 400 !important;
+        font-weight: 600 !important;
         font-size: 1.4rem !important;
-        font-family: BimboRegular;
-        color: #aaaaaa;
+        font-family: MetropolisRegular;
+        color: white;
         margin-top: 2rem;
         margin-bottom: -1rem;
     }
@@ -345,6 +347,8 @@ body{
 
     .login-fix{
         border: 0px solid  rgba(0, 0, 0, 0.733)!important;
+        color: white !important;
+        background-color: transparent !important;
     }
 
     .feature-heading{
