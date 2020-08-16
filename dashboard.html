@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>picPicker | Dashboard</title>
 
-    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmEgLh0_2AT-WHVqd-vTtRZVBzYPA5lwhTIQ&usqp=CAU" type="image/x-icon">
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmEgLh0_2AT-WHVqd-vTtRZVBzYPA5lwhTIQ&usqp=CAU"
+        type="image/x-icon">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -48,16 +50,21 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm">
 
-                <div class="mt-5">
-                    <form method="" action="" class="custom-fu-form">
+                <div class="mt-5 upload-align">
+                    <!-- <form method="" action="" class="custom-fu-form">
                         <input class="custom-fu" type="file" name="" id="">Upload image
+                    </form> -->
+                    <form action="/action_page.php" class="custom-fu-form">
+                        <label for="files" class="custom-fu">Select files:</label>
+                        <input type="file" id="files" name="files" multiple><br><br>
+                        <input type="submit" id="add-images" class="btn btn-dark text-center btn-lg">
                     </form>
                 </div>
 
             </div>
-            <div class="col-sm-4">
+            <!-- <div class="col-sm-4">
 
                 <div class="card mt-5 spacred" style="width: inherit;">
                     <div class="card-body">
@@ -76,14 +83,14 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
         </div>
     </div>
 
     <!-- End of grid -->
 
     <!-- 2nd grid -->
-    <section>
+    <!-- <section>
         <div class="container mb-5">
             <div class="row">
                 <div class="col-sm">
@@ -149,13 +156,15 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End of 2nd grid -->
 
     <!-- Footer -->
 
-    <footer>
-        <section id="footer-section" style="margin-top: 3rem;">
+    <footer style="
+    bottom: 0%;
+    max-width: 100%; position:fixed;">
+        <section class="footer-section" style="margin-top: 3rem;">
             <div class="container" style="text-align: justify;">
                 <center>
                     <div class="row">

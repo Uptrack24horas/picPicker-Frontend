@@ -253,6 +253,11 @@ body{
     margin-top: -2rem;
     /* background-color: greenyellow; */
 }
+.footer-dashboard{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
 
 .person-ph{
     height: 448px;
@@ -306,6 +311,11 @@ body{
     bottom: 0%;
     max-width: 100%;
 }
+.upload-align{
+    margin: auto;
+    height: 7rem;
+    max-width: 50%;
+}
 @media only screen and (max-width: 600px) {
     html, body {
         overflow-x: hidden;
@@ -351,7 +361,11 @@ body{
     .some-edit2{
         margin-left: -3.3rem;
     }
-
+    .upload-align{
+        margin: none;
+        height: max-content;
+        max-width: 100%;
+    }
     .home-text{
         margin-top: -2.5rem;
     }
