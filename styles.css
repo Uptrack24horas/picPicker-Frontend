@@ -24,6 +24,7 @@ body{
     font-size: 2rem;
     padding-bottom: 8rem;
     text-align: center;
+    /* background: var(--background-color); */
 }
 .homesection-ext{
     background: #00c6ff;  
@@ -176,7 +177,7 @@ body{
 }
 
 .button-home{
-    border-radius: 1.5rem;
+    border-radius: .2rem;
     background-color: transparent;
     color: #1c1c1c;
     border:2px solid #1c1c1c;
@@ -346,6 +347,8 @@ body{
 
     .login-fix{
         border: 0px solid  rgba(0, 0, 0, 0.733)!important;
+        color: white !important;
+        background-color: transparent !important;
     }
 
     .feature-heading{
