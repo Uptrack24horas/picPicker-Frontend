@@ -1,20 +1,9 @@
-@font-face{
-    font-family: BimboRegular ;
-    src: url(./assets/bimbo-font/bimbo.regular.ttf);
-}
-@font-face{
-    font-family: BimboFingertip;
-    src:url(./assets/bimbo-font/bimbo.finetip.ttf);
-}
-@font-face{
-    font-family: BimboSharpie;
-    src: url(./assets/bimbo-font/bimbo.sharpie.ttf);
-}
-
 body{
     background-color: #EFF3F8;
 }
-
+html{
+    overscroll-behavior-y: contain;
+}
 #home-section{
     background: #00c6ff;  
     background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
@@ -24,7 +13,6 @@ body{
     font-size: 2rem;
     padding-bottom: 8rem;
     text-align: center;
-    /* background: var(--background-color); */
 }
 .homesection-ext{
     background: #00c6ff;  
@@ -101,12 +89,13 @@ body{
 .card-title-custom{
     font-family: MetropolisRegular;
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 .card-text{
-    font-family: Metropolis;
-    font-size: 1.5rem;
+    font-family: Lato;
+    font-size: 1.3rem;
+    font-weight: 300;
 }
 
 .card{
@@ -168,8 +157,6 @@ body{
 }
 
 .home-text{
-    /* font-family: Metropolis;
-    font-weight: 600 !important; */
     margin-top: 5rem;
     font-size: 30px;
     text-align: left;
@@ -224,8 +211,8 @@ body{
 }
 
 .button-form{
-    border-radius: 1.5rem;
-    background-color: #d99058;
+    border-radius: 0.2rem;
+    background-color: #d99058; 
     background-image: linear-gradient(315deg, #d99058 0%, #f8de7e 74%);
     color: #1c1c1c;
     border:1px solid #1c1c1c;
@@ -343,7 +330,7 @@ body{
 
     .opening-text{
         font-weight: 600 !important;
-        font-size: 1.4rem !important;
+        font-size: 1.2rem !important;
         font-family: MetropolisRegular;
         color: white;
         margin-top: 2rem;
