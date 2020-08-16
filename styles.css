@@ -6,8 +6,8 @@ html{
 }
 #home-section{
     background: #00c6ff;  
-    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0072ff, #00c6ff);/* border-radius: 0px 0px 200px 200px; */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  
+    background: linear-gradient(to right, #0072ff, #00c6ff);
     margin-top: -11rem;
     padding-top: 15rem;
     font-size: 2rem;
@@ -16,7 +16,7 @@ html{
 }
 .homesection-ext{
     background: #00c6ff;  
-    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff); 
     background: linear-gradient(to right, #0072ff, #00c6ff);
 }
 #feature-section{
@@ -127,10 +127,6 @@ html{
     margin-bottom: 6rem;
 }
 
-/* .row, .container{
-    height: 450px;
-} */
-
 .cb-signup{
     padding: 0%;
 }
@@ -140,8 +136,6 @@ html{
 }
 
 .table-align{
-    /* padding-left: 60px;
-    padding-right: 60px; */
     max-width: 70%;
     text-align: center;
 }
@@ -238,7 +232,6 @@ html{
 
 #footer-section{
     margin-top: -2rem;
-    /* background-color: greenyellow; */
 }
 .footer-dashboard{
     position: fixed;
