@@ -1,17 +1,3 @@
-<!--
-    Color Scheme: Orange #FF5851
-    white #F8F8F8
-    black #1C1C21
-
-    NIGHT MODE:
-
-    Blue replacement = background: #a8c0ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
--->
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,22 +16,11 @@ background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, F
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/metropolis" type="text/css" />
-    
-    <!-- <link rel="stylesheet" href="dark.css" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
-
-    <!-- For Light and Dark Mode -->
-
-    <!-- <script>
-        if (window.matchMedia('(prefers-color-scheme)').media !== 'not all') {
-            console.log('🎉 Dark mode is supported');
-        }
-    </script> -->
-
 
     <!-- Navbar -->
 
@@ -117,7 +92,7 @@ background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, F
                     <div class="card" style="width: 18rem; height: 24rem;">
                         <img class="card-img-top" src="/assets/security.jpg" alt="Card image cap" height="166px">
                         <div class="card-body">
-                            <h5 class="card-title">Secured</h5>
+                            <h5 class="card-title-custom">Secured</h5>
                             <p class="card-text">and we take security very seriously</p>
 
                         </div>
@@ -127,7 +102,7 @@ background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, F
                     <div class="card" style="width: 18rem; height: 24rem;">
                         <img class="card-img-top" src="assets/4.jpeg" alt="Card image cap" height="166px">
                         <div class="card-body">
-                            <h5 class="card-title">Work is on Us</h5>
+                            <h5 class="card-title-custom">Work is on Us</h5>
                             <p class="card-text">while you could sleep</p>
 
                         </div>
@@ -137,8 +112,10 @@ background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, F
                     <div class="card" style="width: 18rem; height: 24rem;">
                         <img class="card-img-top" src="assets/5.jpeg" alt="Card image cap" height="166px">
                         <div class="card-body">
-                            <h5 class="card-title">Get rid of Accounting</h5>
-                            <p class="card-text">and from pages like @vit.busted</p>
+                            <h5 class="card-title-custom">Get rid of Accounting</h5>
+                            <p class="card-text">and from pages like <span
+                                    style="background-color: #E86D6C; text-decoration-line: line-through;">@vit.busted</span>
+                            </p>
 
                         </div>
                     </div>
@@ -162,14 +139,6 @@ background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, F
                         <div class="col-sm mt-3 mb-1">
                             <a style="color: #1C1C21;" href="#home-section">Back to top <i
                                     class="fas fa-arrow-up"></i></a>
-                                    <!-- <button onclick="myFunction()">Toggle dark mode</button>
-
-                                    <script>
-                                    function myFunction() {
-                                       var element = document.body;
-                                       element.classList.toggle("dark-mode");
-                                    }
-                                    </script> -->
                         </div>
 
                         <div class="col-sm mt-3 mb-1">
@@ -193,7 +162,7 @@ background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, F
     </footer>
 
     <!-- End of Footer-->
-
+    <script src="main.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" data-auto-replace-svg="nest"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

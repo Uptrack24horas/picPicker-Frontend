@@ -1,34 +1,22 @@
-@font-face{
-    font-family: BimboRegular ;
-    src: url(./assets/bimbo-font/bimbo.regular.ttf);
-}
-@font-face{
-    font-family: BimboFingertip;
-    src:url(./assets/bimbo-font/bimbo.finetip.ttf);
-}
-@font-face{
-    font-family: BimboSharpie;
-    src: url(./assets/bimbo-font/bimbo.sharpie.ttf);
-}
-
 body{
     background-color: #EFF3F8;
 }
-
+html{
+    overscroll-behavior-y: contain;
+}
 #home-section{
     background: #00c6ff;  
-    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0072ff, #00c6ff);/* border-radius: 0px 0px 200px 200px; */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  
+    background: linear-gradient(to right, #0072ff, #00c6ff);
     margin-top: -11rem;
     padding-top: 15rem;
     font-size: 2rem;
     padding-bottom: 8rem;
     text-align: center;
-    /* background: var(--background-color); */
 }
 .homesection-ext{
     background: #00c6ff;  
-    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff); 
     background: linear-gradient(to right, #0072ff, #00c6ff);
 }
 #feature-section{
@@ -98,15 +86,16 @@ body{
       }
     
 }
-.card-title{
+.card-title-custom{
     font-family: MetropolisRegular;
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 .card-text{
-    font-family: Metropolis;
-    font-size: 1.5rem;
+    font-family: Lato;
+    font-size: 1.3rem;
+    font-weight: 300;
 }
 
 .card{
@@ -138,10 +127,6 @@ body{
     margin-bottom: 6rem;
 }
 
-/* .row, .container{
-    height: 450px;
-} */
-
 .cb-signup{
     padding: 0%;
 }
@@ -151,8 +136,6 @@ body{
 }
 
 .table-align{
-    /* padding-left: 60px;
-    padding-right: 60px; */
     max-width: 70%;
     text-align: center;
 }
@@ -168,8 +151,6 @@ body{
 }
 
 .home-text{
-    /* font-family: Metropolis;
-    font-weight: 600 !important; */
     margin-top: 5rem;
     font-size: 30px;
     text-align: left;
@@ -224,8 +205,8 @@ body{
 }
 
 .button-form{
-    border-radius: 1.5rem;
-    background-color: #d99058;
+    border-radius: 0.2rem;
+    background-color: #d99058; 
     background-image: linear-gradient(315deg, #d99058 0%, #f8de7e 74%);
     color: #1c1c1c;
     border:1px solid #1c1c1c;
@@ -251,7 +232,11 @@ body{
 
 #footer-section{
     margin-top: -2rem;
-    /* background-color: greenyellow; */
+}
+.footer-dashboard{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
 }
 
 .person-ph{
@@ -294,7 +279,23 @@ body{
 .twitterIcon:hover{
     color: #00aced;
 }
-
+.btn-space{
+    margin-top: 3.5rem !important;
+}
+.btn-block{
+    height: 5rem;
+    font-size: 1.4rem;
+}
+.dashboard-footer{
+    position: fixed;
+    bottom: 0%;
+    max-width: 100%;
+}
+.upload-align{
+    margin: auto;
+    height: 7rem;
+    max-width: 50%;
+}
 @media only screen and (max-width: 600px) {
     html, body {
         overflow-x: hidden;
@@ -322,7 +323,7 @@ body{
 
     .opening-text{
         font-weight: 600 !important;
-        font-size: 1.4rem !important;
+        font-size: 1.2rem !important;
         font-family: MetropolisRegular;
         color: white;
         margin-top: 2rem;
@@ -340,7 +341,11 @@ body{
     .some-edit2{
         margin-left: -3.3rem;
     }
-
+    .upload-align{
+        margin: none;
+        height: max-content;
+        max-width: 100%;
+    }
     .home-text{
         margin-top: -2.5rem;
     }
