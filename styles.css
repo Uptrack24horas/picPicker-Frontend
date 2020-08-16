@@ -98,7 +98,7 @@ body{
       }
     
 }
-.card-title{
+.card-title-custom{
     font-family: MetropolisRegular;
     font-weight: bold;
     font-size: 2.4rem;
@@ -294,7 +294,18 @@ body{
 .twitterIcon:hover{
     color: #00aced;
 }
-
+.btn-space{
+    margin-top: 3.5rem !important;
+}
+.btn-block{
+    height: 5rem;
+    font-size: 1.4rem;
+}
+.dashboard-footer{
+    position: fixed;
+    bottom: 0%;
+    max-width: 100%;
+}
 @media only screen and (max-width: 600px) {
     html, body {
         overflow-x: hidden;
